@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MBBS QUIZ COMPETITION</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>WELCOME TO THE ANNUAL MBBS QUIZ COMPETITION, BAYERO UNIVERSITY, KANO.</h1>
+    <h2 id="sabb-host">HOSTED BY SABB</h2>
+    <div class="spanner">
+        <div class="ug-18">
+            <h2>MBBS-18</h2>
+            <div class="score-scrn">
+                <h5 id="score-el-18">0</h5>
+            </div>
+            <div class="plus-btn">
+                <button type="button" onclick="mbbs1801()">+1</button>
+                <button type="button" onclick="mbbs1802()">+2</button>
+                <button type="button" onclick="mbbs1803()">+3</button>
+            </div>
+            <div class="minus-btn">
+                <button type="button" onclick="mbbs1804()">-2</button>
+            </div>
+        </div>
+        <div class="ug-19">
+            <h2>MBBS-19</h2>
+            <div class="score-scrn">
+                <h5 id="score-el-19">0</h5>
+            </div>
+            <div class="plus-btn">
+                <button type="button" onclick="mbbs1901()">+1</button>
+                <button type="button" onclick="mbbs1902()">+2</button>
+                <button type="button" onclick="mbbs1903()">+3</button>
+            </div>
+            <div class="minus-btn">
+                <button type="button" onclick="mbbs1904()">-2</button>
+            </div>
+        </div>
+    </div>
+    <div class="end-btn">
+        <button type="button" id="end-btn" onclick="summary()">END QUIZ</button>
+    </div>
+    <div class="popup-main">
+        <div class="popup">
+            <h2 id="popup-msg">YOU MIGHT BE ON CLOUD 9 TODAY. CONGRATULATIONS ON YOUR BIG SUCCESS! &#x1f973; &#x1f973;</h2>
+            <img src="giphy4.webp" alt="congratulations" class="popup-img">
+            <h3 class="lastPopup">Weldone guys. Good job!&#x1f929;</h3>
+            <div class="restart">
+                <button type="button" id="new-btn" onclick="startAfresh()">NEW QUIZ</button>
+            </div>
+        </div>
+    </div>
+    <div class="rules">
+        <h2>RULES OF THE QUIZ</h2>
+        <ol>
+            <li>Anyone suspected by an official of cheating will be disqualified. You must not use any mobile device during a quiz competition.</li>
+            <li>If a player arrives after a competition has begun, they will not be allowed into the quiz room as it could disrupt other players.</li>
+            <li>For each question answered correctly by the participants, a +3 points will be awarded to the team.</li>
+            <li>If a team fail to provide an answer to a question, it will be forwarded to the opposing team. A +2 points will be awarded to the team.</li>
+            <li>If both teams can not provide an answer, the question will be forwarded to the audience. If answered correctly, a +1 point will be awarded to the team.</li>
+            <li>Failure to abide by any of the stated rules, either by the participants or their supporters will attract a -2 points to the responsible team.</li>
+        </ol>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

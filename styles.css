@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(10, 10, 107);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: aqua;
+    margin: 0;
+}
+
+.spanner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-scrn{
+    background-color: black;
+    height: 80px;
+    width: 122px;
+    margin: 0 auto;
+    padding: 4px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.plus-btn{
+    margin: 15px;
+}
+
+.minus-btn{
+    margin: 15px;
+}
+
+button{
+    height: 30px;
+    width: 40px;
+    border: 1px solid aqua;
+    border-radius: 3px;
+    background: none;
+    font-family: Cursed;
+    font-size: larger;
+    padding: 5px;
+    color: aqua;
+}
+
+@font-face{
+    src: url("CursedTimerULiL.ttf");
+    font-family: Cursed;
+}
+
+H1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 40px;
+}
+
+h5{
+    font-family: Cursed;
+    color: red;
+    margin-top: 3px;
+    font-size: 80px;
+}
+
+#sabb-host{
+    font-family: Cursed;
+    text-align: center;
+    color: rgb(73, 245, 73);
+}
+
+.end-btn{
+    margin: 40px auto;
+}
+
+#end-btn{
+    width: 120px;
+}
+
+#new-btn{
+    width: 120px;
+    color: red;
+    border: 1px solid red;
+}
+
+#newBtn{
+    width: 120px;
+    color: red;
+    border: 1px solid red;
+}
+
+#lastBtn{
+    width: 120px;
+    color: red;
+    border: 1px solid red;
+}
+
+.restart{
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+}
+
+.popup-main{
+    position: fixed;
+    top: 35%;
+    left: 10%;
+    right: 10%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.popup{
+    background-color: rgb(236, 184, 184);
+    width: auto;
+    height: auto;
+    padding: 5px 2px 5px 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.popup-img{
+    height: 190px;
+    width: auto;
+}
+
+.lastPopup{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    text-shadow: 0 0 9px black;
+}
+
+#popup-msg{
+    font-family: 'Happy Monkey', cursive;
+    color: rgb(6, 252, 6);
+    text-shadow: 0 0 6px black;
+}
+
+.rules{
+    margin: 50px auto;
+    width: 570px;
+    height: auto;
+    background: #A8DADC;
+    border-radius: 5px;
+    box-shadow: 0 7px 0 purple;
+    margin: auto;
+    padding: 6px 4px 2px 2px;
+    text-align: center;
+    color: black;
+}
